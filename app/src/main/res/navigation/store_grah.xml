@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/store_grah"
+    app:startDestination="@id/listElementFragment">
+
+    <fragment
+        android:id="@+id/favoritoFragment"
+        android:name="pe.idat.ec3.susan.susanmeza_evc3.UI.fragments.FavoritoFragment"
+        android:label="fragment_favorito"
+        tools:layout="@layout/fragment_favorito" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="pe.idat.ec3.susan.susanmeza_evc3.UI.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/listElementFragment"
+        android:name="pe.idat.ec3.susan.susanmeza_evc3.UI.fragments.ListElementFragment"
+        android:label="fragment_list_element"
+        tools:layout="@layout/fragment_list_element" />
+</navigation>

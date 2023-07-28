@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/favoritoFragment"
+        android:title="Favorito"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/infoFragment"
+        android:title="Info"
+        android:icon="@drawable/ic_favorite"/>
+    <item android:id="@+id/listElementFragment"
+        android:title="List Element"
+        android:icon="@drawable/ic_account"/>
+
+</menu>
